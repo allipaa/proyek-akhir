@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Backend cache
+backend/app/__pycache__/
+frontend/__pycache__/
+
+# Environment variables
+.env
+
+# Chroma database
+data/chroma/
+
+# Gradio
+frontend/.gradio/
+
+# Virtual environment
+venv/
+.venv/
+env/
