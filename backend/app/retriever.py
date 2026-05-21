@@ -2,7 +2,7 @@ import pandas as pd
 from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.retrievers import BM25Retriever
-from langchain.retrievers import EnsembleRetriever
+from langchain_community.retrievers import EnsembleRetriever
 from langchain_core.documents import Document
 from .config import (
     CHROMA_DIR, TICKET_FILE, EMBEDDING_MODEL, COLLECTION_NAME,
